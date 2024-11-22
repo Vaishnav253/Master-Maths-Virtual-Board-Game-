@@ -1,1 +1,1 @@
-# Master-Maths-Virtual-Board-Game-
+# Master Maths (Virtual Board Game)
