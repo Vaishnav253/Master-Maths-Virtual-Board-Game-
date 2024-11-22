@@ -1,0 +1,68 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: gold;
+}
+
+h1{color: blue;}
+
+table, th, td
+{
+    border: 2px solid black;
+}
+
+.center
+{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#game-board 
+{
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(10, 50px);
+    gap: 2px;
+    margin: 20px auto;
+    width: 520px;
+    height: 520px;
+    border: 1px solid black;
+}
+
+#game-board div 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+#dice-container, #tile-container 
+{
+    margin: 20px;
+}
+
+.tile 
+{
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.red { background-color: red; color: white; }
+.green { background-color: green; color: white; }
+.yellow { background-color: yellow; color: black; }
+.blue { background-color: blue; color: white; }
+
+.color-13 { background-color: orangered; }
+.color-12 { background-color: blue; }
+.color-11 { background-color: green; }
+.color-9 { background-color: yellow; }
+.color-8 { background-color: lightskyblue; }
+.color-7 { background-color: blueviolet; }
+.color-6 { background-color: purple; }
+.color-5 { background-color: pink; }
+.color-1 { background-color: rgb(25, 248, 25); }
